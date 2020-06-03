@@ -8,7 +8,7 @@ header {
       position: relative;
       background-color: white;
 
-      @media screen and (min-width: 375px) and (max-width: 575px){
+      @media screen and (min-width: 320px) and (max-width: 575px){
         display: flex;
         align-items: unset;
       }
@@ -21,14 +21,14 @@ header {
       }
 
       .navigation {
-        @media screen and (min-width: 375px) and (max-width: 575px) {
+        @media screen and (min-width: 320px) and (max-width: 575px) {
           position: relative;
           flex-basis: 50%;
         }
 
         #menuToggle {
           display: none;
-          @media screen and (min-width: 375px) and (max-width: 575px) {
+          @media screen and (min-width: 320px) and (max-width: 575px) {
             display: block;
             position: relative;
             top: 10px;
@@ -39,7 +39,7 @@ header {
         }
 
         #menuToggle a {
-          @media screen and (min-width: 375px) and (max-width: 575px) {
+          @media screen and (min-width: 320px) and (max-width: 575px) {
             text-decoration: none;
             color: #232323;
             transition: color 0.3s ease;
@@ -47,7 +47,7 @@ header {
         }
 
         #menuToggle .input-checkbox {
-          @media screen and (min-width: 375px) and (max-width: 575px) {
+          @media screen and (min-width: 320px) and (max-width: 575px) {
             display: block;
             width: 40px;
             height: 32px;
@@ -62,7 +62,7 @@ header {
         }
 
         #menuToggle span {
-          @media screen and (min-width: 375px) and (max-width: 575px) {
+          @media screen and (min-width: 320px) and (max-width: 575px) {
             display: block;
             width: 37px;
             height: 5px;
@@ -79,19 +79,19 @@ header {
         }
 
         #menuToggle span:first-child {
-          @media screen and (min-width: 375px) and (max-width: 575px) {
+          @media screen and (min-width: 320px) and (max-width: 575px) {
             transform-origin: 0% 0%;
           }
         }
 
         #menuToggle span:nth-last-child(2) {
-          @media screen and (min-width: 375px) and (max-width: 575px) {
+          @media screen and (min-width: 320px) and (max-width: 575px) {
             transform-origin: 0% 100%;
           }
         }
 
         #menuToggle .input-checkbox:checked ~ span {
-          @media screen and (min-width: 375px) and (max-width: 575px) {
+          @media screen and (min-width: 320px) and (max-width: 575px) {
             opacity: 1;
             transform: rotate(45deg) translate(-2px, -1px);
             background: #232323;
@@ -99,20 +99,20 @@ header {
         }
 
         #menuToggle .input-checkbox:checked ~ span:nth-last-child(3) {
-          @media screen and (min-width: 375px) and (max-width: 575px) {
+          @media screen and (min-width: 320px) and (max-width: 575px) {
             opacity: 0;
             transform: rotate(0deg) scale(0.2, 0.2);
           }
         }
 
         #menuToggle .input-checkbox:checked ~ span:nth-last-child(2) {
-          @media screen and (min-width: 375px) and (max-width: 575px) {
+          @media screen and (min-width: 320px) and (max-width: 575px) {
             transform: rotate(-45deg) translate(0, -1px);
           }
         }
 
         #menu {
-          @media screen and (min-width: 375px) and (max-width: 575px) {
+          @media screen and (min-width: 320px) and (max-width: 575px) {
             position: absolute;
             width: auto;
             margin: -100px 0 0 -50px;
@@ -128,13 +128,13 @@ header {
         }
 
         #menu li {
-          @media screen and (min-width: 375px) and (max-width: 575px) {
+          @media screen and (min-width: 320px) and (max-width: 575px) {
             padding: 10px 0;
             font-size: 20px;
           }
         }
         #menuToggle .input-checkbox:checked ~ ul {
-          @media screen and (min-width: 375px) and (max-width: 575px) {
+          @media screen and (min-width: 320px) and (max-width: 575px) {
             transform: none;
           }
         }
@@ -163,7 +163,7 @@ header {
   }
 }
 
-@media screen and (min-width: 375px) and (max-width: 575px) {
+@media screen and (min-width: 320px) and (max-width: 575px) {
 
   .common-action{
     display: none;
