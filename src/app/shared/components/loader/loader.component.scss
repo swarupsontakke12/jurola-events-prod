@@ -1,0 +1,21 @@
+@import '../../../../assets/scss/base/index.scss';
+
+.ngx-loader-container {
+  position: relative;
+
+  ::ng-deep {
+    .ngx-overlay.loading-foreground {
+      background: rgba($loader-overlay-color, 0.8) !important;
+    }
+
+    .ngx-position-absolute.ngx-progress-bar {
+      color: $loader-progress-bar;
+    }
+
+    .ngx-foreground-spinner {
+      .sk-ball-spin-clockwise {
+        color: $loader-spinner;
+      }
+    }
+  }
+}
